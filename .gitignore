@@ -1,10 +1,10 @@
 # Logs
 logs
 *.log
-*.jpg
 
 test_*
 _temp
+npm-debug.log*
 
 # Runtime data
 pids
@@ -13,3 +13,29 @@ pids
 
 # Dependency directory
 node_modules/*
+lib-cov
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
