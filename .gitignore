@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+*.jpg
+
+test_*
+_temp
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules/*
